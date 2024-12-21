@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background: #111;
+    border-bottom: 1px solid #00ff00;
+}
+
+nav a {
+    color: #00ff00;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #00ff00;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.commands {
+    display: none;
+    background: #222;
+    color: #00ff00;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
